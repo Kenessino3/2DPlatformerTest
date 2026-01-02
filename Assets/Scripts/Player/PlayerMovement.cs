@@ -5,13 +5,16 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] LayerMask groundLayer;
     [SerializeField] LayerMask wallLayer;
-    private Rigidbody2D body;
-    private Animator anim;
     [SerializeField] private float speed;
     [SerializeField] private float jumpPower;
+    private Rigidbody2D body;
+    private Animator anim;
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
+    
+    [Header("Sound Components")]
+    [SerializeField] private AudioClip jumpsound;
 
     //Called everytime the script is loaded
     //Grabs references for the Rigidbody component to body and animator to anim
@@ -55,6 +58,11 @@ public class PlayerMovement : MonoBehaviour
            if (Input.GetKey(KeyCode.Space))
            {
                Jump();
+
+               if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
+               {
+                   SoundManager.instance.PlaySound(jumpsound);
+               }
            }
        }
        else

@@ -13,6 +13,13 @@ public class Health : MonoBehaviour
     [SerializeField] private int numberOfFlashes;
     private SpriteRenderer spriteRend;
     
+    [Header ("Components")]
+    [SerializeField] private Behaviour[] components;
+    private bool invulnerable;
+    
+    [Header ("Audio")]
+    [SerializeField] private AudioClip deathsound;
+    [SerializeField] private AudioClip hurtsound;
     
     private void Awake()
     {
@@ -23,12 +30,17 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
+        if (invulnerable)
+        {
+            return;
+        }
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0f, startingHealth);
 
         if (currentHealth > 0)
         {
             anim.SetTrigger("Hurt");
             StartCoroutine(Invunerability());
+            SoundManager.instance.PlaySound(hurtsound);
         }
         else
         {
@@ -36,20 +48,15 @@ public class Health : MonoBehaviour
             {
                 anim.SetTrigger("Die");
                 
-                //Player
-                if (GetComponent<PlayerMovement>() != null)
+                //Deactivate all attached component classes
+
+                foreach (Behaviour component in components)
                 {
-                    GetComponent<PlayerMovement>().enabled = false;
-                }
-                
-                
-                //Enemy
-                if (GetComponent<MeleeEnemy>() != null)
-                {
-                    GetComponent<MeleeEnemy>().enabled = false;
+                    component.enabled = false;
                 }
                 
                 dead = true;
+                SoundManager.instance.PlaySound(deathsound);
             }
         }
     }
@@ -61,6 +68,7 @@ public class Health : MonoBehaviour
 
     private IEnumerator Invunerability()
     {
+        invulnerable = true;
         Physics2D.IgnoreLayerCollision(8, 9, true);
         //duration
         for (int i = 0; i < numberOfFlashes; i++)
@@ -71,6 +79,11 @@ public class Health : MonoBehaviour
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
         }
         Physics2D.IgnoreLayerCollision(8,9,false);
+        invulnerable = false;
     }
-    
+
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
+    }
 }

@@ -2,14 +2,22 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [Header("Attack Settings")]
+    [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private int damage;
     [SerializeField] private float attackRange;
+    
+    [Header("Collider Parameters")]
     [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
+    
+    [Header("Enemy Layer")]
     [SerializeField] private LayerMask enemyLayer;
     
+    [Header("Sound Parameters")]
+    [SerializeField] private AudioClip swordhitsound;
+    
+    //Refs
     private Animator anim;
     private PlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
@@ -31,6 +39,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
+        
         anim.SetTrigger("Attack");
         cooldownTimer = 0;
     }
@@ -48,6 +57,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (hit.collider != null)
         {
+            SoundManager.instance.PlaySound(swordhitsound);
             hit.collider.GetComponent<Health>().TakeDamage(damage);
         }
     }

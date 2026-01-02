@@ -177,6 +177,10 @@ MonoBehaviour:
   startingHealth: 3
   iFramesDuration: 0
   numberOfFlashes: 0
+  components:
+  - {fileID: 800929141813373551}
+  deathsound: {fileID: 8300000, guid: c6957f4cc33f5324a903f1904f63566e, type: 3}
+  hurtsound: {fileID: 8300000, guid: 1bba226cb37017948912892b355f8820, type: 3}
 --- !u!114 &800929141813373551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,9 +195,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeleeEnemy
   attackCooldown: 1
   range: 1
-  colliderDistance: 2
   damage: 2
+  colliderDistance: 2
   boxCollider: {fileID: 7972661684707199681}
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
+  swordhitsound: {fileID: 8300000, guid: c6657bfa04302894e99f14aa9c40ec2a, type: 3}

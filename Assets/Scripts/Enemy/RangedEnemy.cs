@@ -1,12 +1,15 @@
-using System;
 using UnityEngine;
 
-public class MeleeEnemy : MonoBehaviour
+public class RangedEnemy : MonoBehaviour
 {
     [Header ("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
     [SerializeField] private int damage;
+
+    [Header("Ranged Attack")] 
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private GameObject[] arrows;
     
     [Header("Collider Parameters")]
     [SerializeField] private float colliderDistance;
@@ -17,19 +20,18 @@ public class MeleeEnemy : MonoBehaviour
     private float cooldownTimer = Mathf.Infinity;
     
     [Header("Sound Parameters")]
-    [SerializeField] private AudioClip swordhitsound;
+    [SerializeField] private AudioClip arrowshootsound;
     
     //Refs
     private Animator anim;
-    private Health playerHealth;
     private EnemyPatrol enemyPatrol;
-
+    
     private void Awake()
     {
         anim = GetComponent<Animator>();
         enemyPatrol = GetComponentInParent<EnemyPatrol>();
     }
-
+    
     private void Update()
     {
         cooldownTimer += Time.deltaTime;
@@ -37,10 +39,10 @@ public class MeleeEnemy : MonoBehaviour
         //Attack only when player in sight
         if (PlayerInSight())
         {
-            if (cooldownTimer >= attackCooldown && playerHealth.currentHealth > 0)
+            if (cooldownTimer >= attackCooldown)
             {
                 cooldownTimer = 0;
-                anim.SetTrigger("MeleeAttack");
+                anim.SetTrigger("RangedAttack");
             }
         }
 
@@ -51,16 +53,33 @@ public class MeleeEnemy : MonoBehaviour
         
     }
 
+    private void RangedAttack()
+    {
+        cooldownTimer = 0;
+        //Shoot projectile
+        SoundManager.instance.PlaySound(arrowshootsound);
+        arrows[FindArrow()].transform.position = firePoint.position;
+        arrows[FindArrow()].GetComponent<EnemyProjectile>().ActivateProjectile();
+    }
+    
+    private int FindArrow()
+    {
+        for (int i = 0; i < arrows.Length; i++)
+        {
+            if (!arrows[i].activeInHierarchy)
+            {
+                return i;
+            }
+        }
+        return 0;
+    }
+    
     private bool PlayerInSight()
     {
         RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance, 
             new Vector3 (boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z), 
             0f, Vector2.left,0f, playerLayer);
-
-        if (hit.collider != null)
-        {
-            playerHealth = hit.transform.GetComponent<Health>();
-        }
+        
         return hit.collider != null;
     }
 
@@ -69,15 +88,5 @@ public class MeleeEnemy : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance, 
             new Vector3 (boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
-    }
-
-    private void DamagePlayer()
-    {
-        if (PlayerInSight())
-        {
-            //Damage player health
-            SoundManager.instance.PlaySound(swordhitsound);
-            playerHealth.TakeDamage(damage);
-        }
     }
 }
