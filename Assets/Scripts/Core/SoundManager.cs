@@ -8,8 +8,21 @@ public class SoundManager : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        
         source = GetComponent<AudioSource>();
+        
+        //Keep music playing even when the player goes to a new scene
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        //Destroy duplicate
+        else if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+        
     }
 
     public void PlaySound(AudioClip _sound)

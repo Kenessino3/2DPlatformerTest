@@ -181,14 +181,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27a6d23a9b4e7e74a855a329d76f17e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  jumpPower: 20
+  coyoteTime: 0.25
+  extraJumps: 1
+  wallJumpX: 1500
+  wallJumpY: 750
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   wallLayer:
     serializedVersion: 2
     m_Bits: 128
-  speed: 10
-  jumpPower: 20
   jumpsound: {fileID: 8300000, guid: 6e333ceb87ca0c140861b6fb0ddeb4d9, type: 3}
 --- !u!95 &3400093299503328169
 Animator:
