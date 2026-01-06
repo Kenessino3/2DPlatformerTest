@@ -5,16 +5,26 @@ public class PlayerRespawn : MonoBehaviour
    [SerializeField] private AudioClip checkpointSound; //Sound that plays when picking up a new checkpoint
    private Transform currentCheckpoint; //store last checkpoint
    private Health playerHealth;
+   private UIManager uiManager;
 
    private void Awake()
    {
       playerHealth = GetComponent<Health>();
+      uiManager = FindObjectOfType<UIManager>();
    }
 
-   public void RespawnPlayer()
+   public void CheckRespawn()
    {
-      transform.position = currentCheckpoint.position; //Move player to checkpoint position
+      //Check if checkpoint is available
+      if (currentCheckpoint == null)
+      {
+         //Show game over screen
+         uiManager.GameOver();
+         return;
+      }
+      
       playerHealth.Respawn();//Restore player health and reset animation
+      transform.position = currentCheckpoint.position; //Move player to checkpoint position
       
       //Move camera back to checkpoint room (checkpoint must be child of the room object)
       Camera.main.GetComponent<CameraController>().MoveToNewRoom(currentCheckpoint.parent);
