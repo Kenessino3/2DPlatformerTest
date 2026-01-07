@@ -4,12 +4,14 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance { get; private set; }
-    private AudioSource source;
+    private AudioSource soundSource;
+    private AudioSource musicSource;
 
     private void Awake()
     {
         
-        source = GetComponent<AudioSource>();
+        soundSource = GetComponent<AudioSource>();
+        musicSource = transform.GetChild(0).GetComponent<AudioSource>();
         
         //Keep music playing even when the player goes to a new scene
         if (instance == null)
@@ -23,10 +25,47 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
         }
         
+        //Assign initial volumes
+        ChangeMusicVolume(0);
+        ChangeSoundVolume(0);
     }
 
     public void PlaySound(AudioClip _sound)
     {
-        source.PlayOneShot(_sound);
+        soundSource.PlayOneShot(_sound);
     }
+
+    public void ChangeSoundVolume(float _change)
+    {
+        ChangeSourceVolume(1,"SoundVolume", _change, soundSource);
+    }
+    public void ChangeMusicVolume(float _change)
+    {
+        ChangeSourceVolume(0.3f,"MusicVolume", _change, musicSource);
+    }
+    private void ChangeSourceVolume(float baseVolume, string volumeName, float change, AudioSource source)
+    {
+        //Get initial value of volume and change it
+        float currentVolume = PlayerPrefs.GetFloat(volumeName, 1); //Load last saved sound volume from player prefs
+        currentVolume += change;
+        
+        //Check if the maximum or minimum value has been reached
+        if (currentVolume > 1)
+        {
+            currentVolume = 0;
+        }
+        else if (currentVolume < 0)
+        {
+            currentVolume = 1;
+        }
+        
+        //Assign final value
+        float finalVolume = currentVolume * baseVolume;
+        source.volume = finalVolume;
+        
+        //Save final value to player prefs
+        PlayerPrefs.SetFloat(volumeName, currentVolume);
+    }
+    
+    
 }

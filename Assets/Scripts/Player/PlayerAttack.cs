@@ -41,8 +41,15 @@ public class PlayerAttack : MonoBehaviour
     {
         
         anim.SetTrigger("Attack");
-        SoundManager.instance.PlaySound(swordhitsound);
         cooldownTimer = 0;
+        
+        //lock movement
+        playerMovement.SetAttacking(true);
+    }
+
+    public void UnlockMovement()
+    {
+        playerMovement.SetAttacking(false);
     }
     
     private void DamageEnemy()
@@ -58,7 +65,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (hit.collider != null)
         {
-            
+            SoundManager.instance.PlaySound(swordhitsound);
             hit.collider.GetComponent<Health>().TakeDamage(damage);
         }
     }

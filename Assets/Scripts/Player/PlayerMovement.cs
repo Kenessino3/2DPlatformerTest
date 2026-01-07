@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
+    private bool isAttacking = false;
     
     
 
@@ -44,11 +45,20 @@ public class PlayerMovement : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
+    //Movement lock for attacking
+    public void SetAttacking(bool attacking)
+    {
+        isAttacking = attacking;
+    }
+    
     // Update is called once per frame
     //checking for input from the player
     void Update()
     { 
         horizontalInput = Input.GetAxis("Horizontal");
+      
+        //if attacking make horizontalInput 0
+        float movementForce = isAttacking ? 0:horizontalInput;
 
        // flip player depending on the direction they are moving
        if (horizontalInput > 0.01f)
@@ -61,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
        }
        
        //set animator parameters
-       anim.SetBool("Run", horizontalInput != 0);
+       anim.SetBool("Run", movementForce != 0 && !isAttacking);
        anim.SetBool("Grounded", isGrounded());
        
        //Jump
@@ -95,6 +105,10 @@ public class PlayerMovement : MonoBehaviour
            {
                coyoteCounter -= Time.deltaTime; //Start decreasing coyote counter when not on the ground
            }
+       }
+       if (!onWall())
+       {
+           body.linearVelocity = new Vector2(movementForce * speed, body.linearVelocity.y);
        }
     }
 
