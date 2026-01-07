@@ -25,11 +25,13 @@ public class RangedEnemy : MonoBehaviour
     //Refs
     private Animator anim;
     private EnemyPatrol enemyPatrol;
+    private Transform playerTransform;
     
     private void Awake()
     {
         anim = GetComponent<Animator>();
         enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
     }
     
     private void Update()
@@ -58,8 +60,22 @@ public class RangedEnemy : MonoBehaviour
         cooldownTimer = 0;
         //Shoot projectile
         SoundManager.instance.PlaySound(arrowshootsound);
-        arrows[FindArrow()].transform.position = firePoint.position;
-        arrows[FindArrow()].GetComponent<EnemyProjectile>().ActivateProjectile();
+        
+        int arrowIndex = FindArrow();
+        Transform arrowTransform = arrows[arrowIndex].transform;
+        
+        //Position the arrow
+        arrowTransform.position = firePoint.position;
+        
+        //MATH
+        
+        Vector3 direction = (playerTransform.position - firePoint.position).normalized; 
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        arrowTransform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+    
+        // ----
+
+        arrows[arrowIndex].GetComponent<EnemyProjectile>().ActivateProjectile();
     }
     
     private int FindArrow()
