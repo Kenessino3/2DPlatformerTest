@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 8693140646868429774}
   - component: {fileID: 6585222635291479951}
   - component: {fileID: 2197339780319316153}
-  m_Layer: 6
+  - component: {fileID: 6412039143349064900}
+  - component: {fileID: 7221260389600174284}
+  m_Layer: 10
   m_Name: Box
-  m_TagString: Ground
+  m_TagString: Destructible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,3 +139,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
+--- !u!50 &6412039143349064900
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673505400859061136}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 50
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &7221260389600174284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2673505400859061136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce6b661bede0ff429051adae2ca3247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestructibleObject
+  startingHealth: 6
+  brokenPrefab: {fileID: 1008759366357936503, guid: e3572173b32cd7743a52c8058251be2d, type: 3}
+  hitSound: {fileID: 8300000, guid: 1bba226cb37017948912892b355f8820, type: 3}
+  breakSound: {fileID: 8300000, guid: c6957f4cc33f5324a903f1904f63566e, type: 3}

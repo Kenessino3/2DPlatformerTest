@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float colliderDistance;
     [SerializeField] private BoxCollider2D boxCollider;
     
-    [Header("Enemy Layer")]
-    [SerializeField] private LayerMask enemyLayer;
+    [Header("Layers")]
+    [SerializeField] private LayerMask attackableLayer;
     
     [Header("Sound Parameters")]
     [SerializeField] private AudioClip swordhitsound;
@@ -60,13 +61,25 @@ public class PlayerAttack : MonoBehaviour
             0f,
             Vector2.zero,
             0f,
-            enemyLayer
+            attackableLayer
         );
 
         if (hit.collider != null)
         {
             SoundManager.instance.PlaySound(swordhitsound);
-            hit.collider.GetComponent<Health>().TakeDamage(damage);
+            
+            //Check if enemy
+            Health enemyHealth = hit.collider.GetComponent<Health>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+            //Check if destructible object
+            DestructibleObject destructibleObject = hit.collider.GetComponent<DestructibleObject>();
+            if (destructibleObject != null)
+            {
+                destructibleObject.TakeDamage(damage);
+            }
         }
     }
 
