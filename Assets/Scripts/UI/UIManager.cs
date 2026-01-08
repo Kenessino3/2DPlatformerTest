@@ -46,18 +46,17 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-    
+    #endregion
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
     }
-    
+        
     public void Quit()
     {
+        Debug.Log("Quitting Game...");
         Application.Quit();
     }
-    #endregion
-    
     #region Pause
 
     public void PauseGame(bool status)
