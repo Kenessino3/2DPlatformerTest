@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpCooldown;
     private float horizontalInput;
     private bool isAttacking = false;
+    public bool isBlocking { get; private set; }
+    
     
     
 
@@ -54,7 +56,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     //checking for input from the player
     void Update()
-    { 
+    {
+        //blocking
+        if (Input.GetMouseButton(1))
+        {
+            isBlocking = true;
+            anim.SetBool("Block", true);
+        }
+        else
+        {
+            isBlocking = false;
+            anim.SetBool("Block", false);
+        }
+
+        if (isBlocking)
+        {
+            body.linearVelocity = Vector2.zero;
+            return;
+        }
+        
         horizontalInput = Input.GetAxis("Horizontal");
       
         //if attacking make horizontalInput 0

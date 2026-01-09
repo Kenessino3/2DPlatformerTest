@@ -21,15 +21,26 @@ public class Health : MonoBehaviour
     [SerializeField] private AudioClip deathsound;
     [SerializeField] private AudioClip hurtsound;
     
+    private PlayerMovement playerMovement;
+    
     private void Awake()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
+        
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     public void TakeDamage(float _damage)
     {
+        //if blocking
+        if (playerMovement != null &&playerMovement.isBlocking)
+        {
+            return;
+        }
+        
+        
         if (invulnerable)
         {
             return;
