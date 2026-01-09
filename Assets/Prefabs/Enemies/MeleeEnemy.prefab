@@ -181,6 +181,7 @@ MonoBehaviour:
   - {fileID: 800929141813373551}
   deathsound: {fileID: 8300000, guid: c6957f4cc33f5324a903f1904f63566e, type: 3}
   hurtsound: {fileID: 8300000, guid: 1bba226cb37017948912892b355f8820, type: 3}
+  scoreValue: 5
 --- !u!114 &800929141813373551
 MonoBehaviour:
   m_ObjectHideFlags: 0

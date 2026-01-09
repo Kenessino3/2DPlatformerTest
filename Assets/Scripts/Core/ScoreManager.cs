@@ -33,6 +33,12 @@ public class ScoreManager : MonoBehaviour
     public void AddScorce(int amount)
     {
         currentScore += amount;
+
+        if (currentScore < 0)
+        {
+            currentScore = 0;
+        }
+        
         Debug.Log(currentScore);
         UpdateScoreText();
     }
@@ -43,5 +49,11 @@ public class ScoreManager : MonoBehaviour
         {
             scoreText.text = currentScore.ToString();
         }
+    }
+
+    public void ResetScore()
+    {
+        currentScore = 0;
+        UpdateScoreText();
     }
 }

@@ -45,15 +45,31 @@ public class UIManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.ResetScore();
+        }
     }
     #endregion
     public void MainMenu()
     {
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.ResetScore();
+        }
+        if (pauseScreen.activeInHierarchy)
+        {
+            PauseGame(false);
+        }
         SceneManager.LoadScene(0);
     }
         
     public void Quit()
     {
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.ResetScore();
+        }
         Debug.Log("Quitting Game...");
         Application.Quit();
     }

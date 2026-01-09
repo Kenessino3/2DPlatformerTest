@@ -6,6 +6,11 @@ public class MainMenuUI : MonoBehaviour
     
     public void StartGame()
     {
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.ResetScore();
+        }
+        
         SceneManager.LoadScene(1);
     }
     
@@ -20,6 +25,10 @@ public class MainMenuUI : MonoBehaviour
     
     public void Quit()
     {
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.ResetScore();
+        }
         Debug.Log("Quitting Game...");
         Application.Quit();
     }

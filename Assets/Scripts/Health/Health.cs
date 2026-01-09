@@ -21,6 +21,9 @@ public class Health : MonoBehaviour
     [SerializeField] private AudioClip deathsound;
     [SerializeField] private AudioClip hurtsound;
     
+    [Header("Score Parameters")]
+    [SerializeField] public int scoreValue;
+    
     private PlayerMovement playerMovement;
     
     private void Awake()
@@ -67,6 +70,11 @@ public class Health : MonoBehaviour
                 anim.SetBool("Block",false);
                 anim.SetBool("Grounded", true);
                 anim.SetTrigger("Die");
+
+                if (ScoreManager.instance != null)
+                {
+                    ScoreManager.instance.AddScorce(scoreValue);
+                }
                 
                 dead = true;
                 SoundManager.instance.PlaySound(deathsound);
