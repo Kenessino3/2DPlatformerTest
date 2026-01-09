@@ -8,7 +8,7 @@ public class LootDrop : MonoBehaviour
    
    [SerializeField] private float dropChance;
 
-   //MATH CONTENT
+   //MATH CONTENT HERE
    public void AttemptDrop() //Attempt to drop loot if it is the loot chance or lower
    {
       if (Random.value <= dropChance)

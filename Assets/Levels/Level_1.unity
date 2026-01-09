@@ -703,8 +703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a261cfa59a7768848a61f6fdb75f6d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  previousRoom: {fileID: 1333194845}
-  nextRoom: {fileID: 177557951}
+  previousRoom: {fileID: 1333194846}
+  nextRoom: {fileID: 177557952}
   cam: {fileID: 519420033}
 --- !u!61 &53973311
 BoxCollider2D:
@@ -9387,8 +9387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a261cfa59a7768848a61f6fdb75f6d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  previousRoom: {fileID: 1043864744}
-  nextRoom: {fileID: 1571321048}
+  previousRoom: {fileID: 1043864745}
+  nextRoom: {fileID: 1571321049}
   cam: {fileID: 519420033}
 --- !u!61 &776455366
 BoxCollider2D:
@@ -15133,8 +15133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a261cfa59a7768848a61f6fdb75f6d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  previousRoom: {fileID: 1571321048}
-  nextRoom: {fileID: 1935610679}
+  previousRoom: {fileID: 1571321049}
+  nextRoom: {fileID: 1935610680}
   cam: {fileID: 519420033}
 --- !u!61 &1261463115
 BoxCollider2D:
@@ -18373,8 +18373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a261cfa59a7768848a61f6fdb75f6d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  previousRoom: {fileID: 1935610679}
-  nextRoom: {fileID: 1333194845}
+  previousRoom: {fileID: 1935610680}
+  nextRoom: {fileID: 1333194846}
   cam: {fileID: 519420033}
 --- !u!61 &1499813200
 BoxCollider2D:

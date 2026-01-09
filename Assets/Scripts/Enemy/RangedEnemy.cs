@@ -55,7 +55,7 @@ public class RangedEnemy : MonoBehaviour
         
     }
 
-    private void RangedAttack()
+    private void RangedAttack() //MATH CONTENT HERE
     {
         cooldownTimer = 0;
         //Shoot projectile
@@ -67,13 +67,10 @@ public class RangedEnemy : MonoBehaviour
         //Position the arrow
         arrowTransform.position = firePoint.position;
         
-        //MATH
+        Vector3 direction = (playerTransform.position - firePoint.position).normalized; // Vector Subtraction and Normalization
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg; // Inverse Tangent
+        arrowTransform.rotation = Quaternion.AngleAxis(angle, Vector3.forward); // Quaternions
         
-        Vector3 direction = (playerTransform.position - firePoint.position).normalized; 
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        arrowTransform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-    
-        // ----
 
         arrows[arrowIndex].GetComponent<EnemyProjectile>().ActivateProjectile();
     }
@@ -90,7 +87,7 @@ public class RangedEnemy : MonoBehaviour
         return 0;
     }
     
-    private bool PlayerInSight()
+    private bool PlayerInSight() //MATH CONTENT HERE - vectors
     {
         RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance, 
             new Vector3 (boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z), 

@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private Transform previousRoom;
-    [SerializeField] private Transform nextRoom;
+    [SerializeField] private Room previousRoom;
+    [SerializeField] private Room nextRoom;
     [SerializeField] private CameraController cam;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -13,13 +13,13 @@ public class Door : MonoBehaviour
         {
             if (collision.transform.position.x < transform.position.x)
             {
-                cam.MoveToNewRoom(nextRoom);
-                nextRoom.GetComponent<Room>().ActivateRoom(true);
-                previousRoom.GetComponent<Room>().ActivateRoom(false);
+                cam.MoveToNewRoom(nextRoom.transform);
+                nextRoom.ActivateRoom(true);
+                previousRoom.ActivateRoom(false);
             }
             else
             {
-                cam.MoveToNewRoom(previousRoom);
+                cam.MoveToNewRoom(previousRoom.transform);
                 previousRoom.GetComponent<Room>().ActivateRoom(true);
                 nextRoom.GetComponent<Room>().ActivateRoom(false);
             }
