@@ -17,6 +17,11 @@ public class LevelFinish : MonoBehaviour
             levelComplete = true;
             SoundManager.instance.PlaySound(winSound);
             
+            if (ScoreManager.instance != null)
+            {
+                ScoreManager.instance.AddScorce(10);
+            }
+            
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
             

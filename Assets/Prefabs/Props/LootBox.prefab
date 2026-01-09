@@ -195,5 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34b964120dbd1849bc0dd5061ab2e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LootDrop
-  lootPrefab: {fileID: 5868861169221358057, guid: 8c7d0d7d45b15774daf5193f0ebc2545, type: 3}
-  dropChance: 1
+  lootPrefabs:
+  - {fileID: 5868861169221358057, guid: 35ac0881614c0664f8001573df47be4a, type: 3}
+  - {fileID: 5868861169221358057, guid: 17116f3f53474fb4386e0a6aec5e25a3, type: 3}
+  - {fileID: 5868861169221358057, guid: 353fbbac7969e1346b83ab31bb489fbc, type: 3}
+  - {fileID: 5868861169221358057, guid: 8c7d0d7d45b15774daf5193f0ebc2545, type: 3}
+  dropChance: 0.5

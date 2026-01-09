@@ -1,14 +1,15 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class LootDrop : MonoBehaviour
 {
    [Header("Loot Settings")]
-   [SerializeField] private GameObject lootPrefab;
+   [SerializeField] private GameObject[] lootPrefabs;
    
    [SerializeField] private float dropChance;
 
    //MATH CONTENT
-   public void AttemptDrop() //Attempt to drop look if it is the loot chance or lower
+   public void AttemptDrop() //Attempt to drop loot if it is the loot chance or lower
    {
       if (Random.value <= dropChance)
       {
@@ -16,11 +17,17 @@ public class LootDrop : MonoBehaviour
       }
    }
 
+   // Uniform Distribution Selection
+   // pick a random int index between 0 and the length of the list
+   // will return 0,1,2 or 3
    private void SpawnLoot()
    {
-      if (lootPrefab != null)
+      int randomIndex = Random.Range(0, lootPrefabs.Length);
+      GameObject selectedLoot = lootPrefabs[randomIndex];
+
+      if (selectedLoot != null)
       {
-         Instantiate(lootPrefab, transform.position, Quaternion.identity);
+         Instantiate(selectedLoot, transform.position, Quaternion.identity);
       }
    }
 }
