@@ -82,7 +82,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313314587056025951}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27212771f47c0be4b8be30b66246a846, type: 3}
   m_Name: 
@@ -268,7 +268,6 @@ MonoBehaviour:
   numberOfFlashes: 0
   components:
   - {fileID: 2862245827775119232}
-  - {fileID: 0}
   deathsound: {fileID: 8300000, guid: c6957f4cc33f5324a903f1904f63566e, type: 3}
   hurtsound: {fileID: 8300000, guid: 1bba226cb37017948912892b355f8820, type: 3}
 --- !u!114 &2862245827775119232

@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //blocking
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1) && isGrounded())
         {
             isBlocking = true;
             anim.SetBool("Block", true);

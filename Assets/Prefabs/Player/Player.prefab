@@ -190,10 +190,10 @@ MonoBehaviour:
   wallJumpY: 750
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1088
   wallLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1152
   jumpsound: {fileID: 8300000, guid: 6e333ceb87ca0c140861b6fb0ddeb4d9, type: 3}
 --- !u!95 &3400093299503328169
 Animator:
@@ -234,9 +234,9 @@ MonoBehaviour:
   attackRange: 1
   colliderDistance: 0.2
   boxCollider: {fileID: 6508191436888204655}
-  enemyLayer:
+  attackableLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1536
   swordhitsound: {fileID: 8300000, guid: c6657bfa04302894e99f14aa9c40ec2a, type: 3}
 --- !u!114 &8290192772502805004
 MonoBehaviour:
