@@ -34,7 +34,7 @@ public class DestructibleObject : MonoBehaviour
     private void Break()
     {
         AudioSource.PlayClipAtPoint(breakSound,transform.position);
-        if (brokenPrefab != null)
+        if (brokenPrefab != null) //Bait and switch to broken prefab
         {
             Instantiate(brokenPrefab,transform.position,transform.rotation);
         }

@@ -30,7 +30,7 @@ public class Firetrap : MonoBehaviour
    {
       if (playerHealth != null && active)
       {
-         playerHealth.TakeDamage(damage);
+         playerHealth.TakeDamage(damage,true);
       }
    }
 

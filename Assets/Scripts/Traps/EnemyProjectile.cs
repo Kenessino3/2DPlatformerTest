@@ -27,7 +27,10 @@ public class EnemyProjectile : EnemyDamage //damages the player every time they 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        base.OnTriggerEnter2D(collision); //Executes enemy damage first
+        if (collision.CompareTag("Player"))
+        {
+            collision.GetComponent<Health>().TakeDamage(damage, false);
+        }//Executes enemy damage first, counts as blockable
         gameObject.SetActive(false); //When this hits any object deactivate arrow
     }
 }

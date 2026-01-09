@@ -32,10 +32,10 @@ public class Health : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
     }
 
-    public void TakeDamage(float _damage)
+    public void TakeDamage(float _damage, bool isTrap = false)
     {
         //if blocking
-        if (playerMovement != null &&playerMovement.isBlocking)
+        if (playerMovement != null && playerMovement.isBlocking && !isTrap)
         {
             return;
         }
@@ -64,6 +64,7 @@ public class Health : MonoBehaviour
                     component.enabled = false;
                 }
                 
+                anim.SetBool("Block",false);
                 anim.SetBool("Grounded", true);
                 anim.SetTrigger("Die");
                 
