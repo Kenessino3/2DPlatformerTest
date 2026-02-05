@@ -56,8 +56,8 @@ public class PlayerAttack : MonoBehaviour
     private void DamageEnemy()
     {
         RaycastHit2D hit = Physics2D.BoxCast(
-            boxCollider.bounds.center + transform.right * attackRange * transform.localScale.x * colliderDistance,
-            new Vector3(boxCollider.bounds.size.x * attackRange, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
+            GetAttackBoxCentre(),
+            GetAttackBoxSize(),
             0f,
             Vector2.zero,
             0f,
@@ -89,8 +89,19 @@ public class PlayerAttack : MonoBehaviour
 
         Gizmos.color = Color.blue;
         Gizmos.DrawWireCube(
-            boxCollider.bounds.center + transform.right * attackRange * transform.localScale.x * colliderDistance,
-            new Vector3(boxCollider.bounds.size.x * attackRange, boxCollider.bounds.size.y, boxCollider.bounds.size.z)
+            GetAttackBoxCentre(),
+            GetAttackBoxSize()
         );
+    }
+
+    private Vector3 GetAttackBoxCentre()
+    {
+        return boxCollider.bounds.center + transform.right * attackRange * transform.localScale.x * colliderDistance;
+    }
+
+    private Vector3 GetAttackBoxSize()
+    {
+        return new Vector3(boxCollider.bounds.size.x * attackRange, boxCollider.bounds.size.y,
+            boxCollider.bounds.size.z);
     }
 }
