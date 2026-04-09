@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 86664d5546e9b2b4cb8338ae0a494419
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7485119100378416112
+    second: WoodHouseBlueEx-Sheet_0
+  - first:
+      213: -305659029155423349
+    second: WoodHouseBlueEx-Sheet_1
+  - first:
+      213: 6817565242494383976
+    second: WoodHouseBlueEx-Sheet_2
+  - first:
+      213: -1073787684946502579
+    second: WoodHouseBlueEx-Sheet_3
+  - first:
+      213: 8613220879527298405
+    second: WoodHouseBlueEx-Sheet_4
+  - first:
+      213: -2673011973484440447
+    second: WoodHouseBlueEx-Sheet_5
+  - first:
+      213: -2647885039011131204
+    second: WoodHouseBlueEx-Sheet_6
+  - first:
+      213: 3687685615153816402
+    second: WoodHouseBlueEx-Sheet_7
+  - first:
+      213: -1202250238173181373
+    second: WoodHouseBlueEx-Sheet_8
+  - first:
+      213: 5623717201939506859
+    second: WoodHouseBlueEx-Sheet_9
+  - first:
+      213: 8034413621656064109
+    second: WoodHouseBlueEx-Sheet_10
+  - first:
+      213: -1902679319263591367
+    second: WoodHouseBlueEx-Sheet_11
+  - first:
+      213: 502626200301182451
+    second: WoodHouseBlueEx-Sheet_12
+  - first:
+      213: 3663366092109240249
+    second: WoodHouseBlueEx-Sheet_13
+  - first:
+      213: 4090045585333371446
+    second: WoodHouseBlueEx-Sheet_14
+  - first:
+      213: -1938086293400631737
+    second: WoodHouseBlueEx-Sheet_15
+  - first:
+      213: -1502969053929867405
+    second: WoodHouseBlueEx-Sheet_16
+  - first:
+      213: 2562200221089599944
+    second: WoodHouseBlueEx-Sheet_17
+  - first:
+      213: 4806127984397619815
+    second: WoodHouseBlueEx-Sheet_18
+  - first:
+      213: 4952250445690291297
+    second: WoodHouseBlueEx-Sheet_19
+  - first:
+      213: -5364281996027443835
+    second: WoodHouseBlueEx-Sheet_20
+  - first:
+      213: -7853436569709469465
+    second: WoodHouseBlueEx-Sheet_21
+  - first:
+      213: -7118165757814724619
+    second: WoodHouseBlueEx-Sheet_22
+  - first:
+      213: 891269095482682192
+    second: WoodHouseBlueEx-Sheet_23
+  - first:
+      213: -5054931749687321929
+    second: WoodHouseBlueEx-Sheet_24
+  - first:
+      213: -6824126845784207594
+    second: WoodHouseBlueEx-Sheet_25
+  - first:
+      213: -265674357722082091
+    second: WoodHouseBlueEx-Sheet_26
+  - first:
+      213: 922233775224091420
+    second: WoodHouseBlueEx-Sheet_27
+  - first:
+      213: -6181288453326959509
+    second: WoodHouseBlueEx-Sheet_28
+  - first:
+      213: -8694870903513742654
+    second: WoodHouseBlueEx-Sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1359
+        width: 162
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cf37806d38f1890800000000000000
+      internalID: -7485119100378416112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1359
+        width: 162
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bdcc08bb412cbf0800000000000000
+      internalID: -305659029155423349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1349
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8677def877bdc9e50800000000000000
+      internalID: 6817565242494383976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1344
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c139a2ac32911f0800000000000000
+      internalID: -1073787684946502579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1334
+        width: 162
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565c33051ce488770800000000000000
+      internalID: 8613220879527298405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1019
+        width: 162
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1841818b5cd87ead0800000000000000
+      internalID: -2673011973484440447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1009
+        width: 172
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb09bab0692d04bd0800000000000000
+      internalID: -2647885039011131204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1009
+        width: 172
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253af8e578a4d2330800000000000000
+      internalID: 3687685615153816402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1009
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a0f8637cfb05fe0800000000000000
+      internalID: -1202250238173181373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1014
+        width: 172
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6abdadff47b0e40800000000000000
+      internalID: 5623717201939506859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1004
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d609e59ee98ff7f60800000000000000
+      internalID: 8034413621656064109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1004
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934cfcd6d335895e0800000000000000
+      internalID: -1902679319263591367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 699
+        width: 177
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd91cbbddfa9f600800000000000000
+      internalID: 502626200301182451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 704
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7d16a2d04e6d230800000000000000
+      internalID: 3663366092109240249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 704
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63243f43ac2c2c830800000000000000
+      internalID: 4090045585333371446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 699
+        width: 162
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7464dc9d8c88a15e0800000000000000
+      internalID: -1938086293400631737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 694
+        width: 177
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377fa18cb91642be0800000000000000
+      internalID: -1502969053929867405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 354
+        width: 232
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c11975a683ce8320800000000000000
+      internalID: 2562200221089599944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762951710fbc2b240800000000000000
+      internalID: 4806127984397619815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164c32eca8de9b440800000000000000
+      internalID: 4952250445690291297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 489
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585c2cf12fd3e85b0800000000000000
+      internalID: -5364281996027443835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0a7649c0df20390800000000000000
+      internalID: -7853436569709469465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7aa19f4f1373d90800000000000000
+      internalID: -7118165757814724619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b678b258c6e5c00800000000000000
+      internalID: 891269095482682192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba1b081b5649d9b0800000000000000
+      internalID: -5054931749687321929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f43de1ac4db41a0800000000000000
+      internalID: -6824126845784207594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d49b0a4492205cf0800000000000000
+      internalID: -265674357722082091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13791c7bbe6ccc00800000000000000
+      internalID: 922233775224091420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c093dc6e6a73aa0800000000000000
+      internalID: -6181288453326959509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseBlueEx-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c20f2c0bfc955780800000000000000
+      internalID: -8694870903513742654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WoodHouseBlueEx-Sheet_0: -7485119100378416112
+      WoodHouseBlueEx-Sheet_1: -305659029155423349
+      WoodHouseBlueEx-Sheet_10: 8034413621656064109
+      WoodHouseBlueEx-Sheet_11: -1902679319263591367
+      WoodHouseBlueEx-Sheet_12: 502626200301182451
+      WoodHouseBlueEx-Sheet_13: 3663366092109240249
+      WoodHouseBlueEx-Sheet_14: 4090045585333371446
+      WoodHouseBlueEx-Sheet_15: -1938086293400631737
+      WoodHouseBlueEx-Sheet_16: -1502969053929867405
+      WoodHouseBlueEx-Sheet_17: 2562200221089599944
+      WoodHouseBlueEx-Sheet_18: 4806127984397619815
+      WoodHouseBlueEx-Sheet_19: 4952250445690291297
+      WoodHouseBlueEx-Sheet_2: 6817565242494383976
+      WoodHouseBlueEx-Sheet_20: -5364281996027443835
+      WoodHouseBlueEx-Sheet_21: -7853436569709469465
+      WoodHouseBlueEx-Sheet_22: -7118165757814724619
+      WoodHouseBlueEx-Sheet_23: 891269095482682192
+      WoodHouseBlueEx-Sheet_24: -5054931749687321929
+      WoodHouseBlueEx-Sheet_25: -6824126845784207594
+      WoodHouseBlueEx-Sheet_26: -265674357722082091
+      WoodHouseBlueEx-Sheet_27: 922233775224091420
+      WoodHouseBlueEx-Sheet_28: -6181288453326959509
+      WoodHouseBlueEx-Sheet_29: -8694870903513742654
+      WoodHouseBlueEx-Sheet_3: -1073787684946502579
+      WoodHouseBlueEx-Sheet_4: 8613220879527298405
+      WoodHouseBlueEx-Sheet_5: -2673011973484440447
+      WoodHouseBlueEx-Sheet_6: -2647885039011131204
+      WoodHouseBlueEx-Sheet_7: 3687685615153816402
+      WoodHouseBlueEx-Sheet_8: -1202250238173181373
+      WoodHouseBlueEx-Sheet_9: 5623717201939506859
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
