@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: d60731d4fd673414db2da3b37dffd163
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2428310093167310707
+    second: WoodHouseRedEx-Sheet_0
+  - first:
+      213: 676749571550843298
+    second: WoodHouseRedEx-Sheet_1
+  - first:
+      213: -6725922622211169541
+    second: WoodHouseRedEx-Sheet_2
+  - first:
+      213: 1717312013240268070
+    second: WoodHouseRedEx-Sheet_3
+  - first:
+      213: -3397302742778679790
+    second: WoodHouseRedEx-Sheet_4
+  - first:
+      213: 8676329677055677375
+    second: WoodHouseRedEx-Sheet_5
+  - first:
+      213: 5097547019207170788
+    second: WoodHouseRedEx-Sheet_6
+  - first:
+      213: 8696249295011210969
+    second: WoodHouseRedEx-Sheet_7
+  - first:
+      213: 4471415560470902766
+    second: WoodHouseRedEx-Sheet_8
+  - first:
+      213: 309484333746206206
+    second: WoodHouseRedEx-Sheet_9
+  - first:
+      213: 689475134738831318
+    second: WoodHouseRedEx-Sheet_10
+  - first:
+      213: 8753802988114480122
+    second: WoodHouseRedEx-Sheet_11
+  - first:
+      213: 5139847598093457088
+    second: WoodHouseRedEx-Sheet_12
+  - first:
+      213: 1826245445130428260
+    second: WoodHouseRedEx-Sheet_13
+  - first:
+      213: -6297764559677928925
+    second: WoodHouseRedEx-Sheet_14
+  - first:
+      213: -516015336046467218
+    second: WoodHouseRedEx-Sheet_15
+  - first:
+      213: -4318207258203185516
+    second: WoodHouseRedEx-Sheet_16
+  - first:
+      213: 5775451167523388397
+    second: WoodHouseRedEx-Sheet_17
+  - first:
+      213: 3034244634347828632
+    second: WoodHouseRedEx-Sheet_18
+  - first:
+      213: 3023958842451047430
+    second: WoodHouseRedEx-Sheet_19
+  - first:
+      213: 4535445702908613179
+    second: WoodHouseRedEx-Sheet_20
+  - first:
+      213: -9171025224473826617
+    second: WoodHouseRedEx-Sheet_21
+  - first:
+      213: 4541040553458659248
+    second: WoodHouseRedEx-Sheet_22
+  - first:
+      213: -7584216190336649819
+    second: WoodHouseRedEx-Sheet_23
+  - first:
+      213: 606754872878141832
+    second: WoodHouseRedEx-Sheet_24
+  - first:
+      213: -5115337440784955881
+    second: WoodHouseRedEx-Sheet_25
+  - first:
+      213: 4367711198864031299
+    second: WoodHouseRedEx-Sheet_26
+  - first:
+      213: -9177639885500369680
+    second: WoodHouseRedEx-Sheet_27
+  - first:
+      213: -1554550800421828928
+    second: WoodHouseRedEx-Sheet_28
+  - first:
+      213: -7760437097765305597
+    second: WoodHouseRedEx-Sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1359
+        width: 162
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377bbbbf92713b120800000000000000
+      internalID: 2428310093167310707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1359
+        width: 162
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a19f26562c446900800000000000000
+      internalID: 676749571550843298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1349
+        width: 162
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2e654b209b8a2a0800000000000000
+      internalID: -6725922622211169541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1344
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62572b56d2e15d710800000000000000
+      internalID: 1717312013240268070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1334
+        width: 162
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e6736b72b5ad0d0800000000000000
+      internalID: -3397302742778679790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1019
+        width: 162
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb355134fd3886870800000000000000
+      internalID: 8676329677055677375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1009
+        width: 172
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ead1b981002eb640800000000000000
+      internalID: 5097547019207170788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1009
+        width: 172
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6626bb8a84fa870800000000000000
+      internalID: 8696249295011210969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1009
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7b50df2c8ad0e30800000000000000
+      internalID: 4471415560470902766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1014
+        width: 172
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5bd70ac528b4400800000000000000
+      internalID: 309484333746206206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1004
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d792976bf1819900800000000000000
+      internalID: 689475134738831318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1004
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb01542071cb7970800000000000000
+      internalID: 8753802988114480122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 699
+        width: 177
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6510c8828645740800000000000000
+      internalID: 5139847598093457088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 704
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f9ca57e80285910800000000000000
+      internalID: 1826245445130428260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 704
+        width: 162
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a4a5dff78d998a0800000000000000
+      internalID: -6297764559677928925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 699
+        width: 162
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67eb4c29ceb6d8f0800000000000000
+      internalID: -516015336046467218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 694
+        width: 177
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e1944a065a214c0800000000000000
+      internalID: -4318207258203185516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 354
+        width: 232
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debb8d9bc36862050800000000000000
+      internalID: 5775451167523388397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895ffe73b6dcb1a20800000000000000
+      internalID: 3034244634347828632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60432bbab8247f920800000000000000
+      internalID: 3023958842451047430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 489
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3290f346d321fe30800000000000000
+      internalID: 4535445702908613179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca27150629f9b080800000000000000
+      internalID: -9171025224473826617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 399
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfeb8be254050f30800000000000000
+      internalID: 4541040553458659248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5b73bce837fb690800000000000000
+      internalID: -7584216190336649819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88193a79750ab6800800000000000000
+      internalID: 606754872878141832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716c1c723bba209b0800000000000000
+      internalID: -5115337440784955881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e39c9b13a3d9c30800000000000000
+      internalID: 4367711198864031299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f43b4c362972a080800000000000000
+      internalID: -9177639885500369680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 169
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6ce8b88402d6ae0800000000000000
+      internalID: -1554550800421828928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodHouseRedEx-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 79
+        width: 152
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3038fed73936d4490800000000000000
+      internalID: -7760437097765305597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WoodHouseRedEx-Sheet_0: 2428310093167310707
+      WoodHouseRedEx-Sheet_1: 676749571550843298
+      WoodHouseRedEx-Sheet_10: 689475134738831318
+      WoodHouseRedEx-Sheet_11: 8753802988114480122
+      WoodHouseRedEx-Sheet_12: 5139847598093457088
+      WoodHouseRedEx-Sheet_13: 1826245445130428260
+      WoodHouseRedEx-Sheet_14: -6297764559677928925
+      WoodHouseRedEx-Sheet_15: -516015336046467218
+      WoodHouseRedEx-Sheet_16: -4318207258203185516
+      WoodHouseRedEx-Sheet_17: 5775451167523388397
+      WoodHouseRedEx-Sheet_18: 3034244634347828632
+      WoodHouseRedEx-Sheet_19: 3023958842451047430
+      WoodHouseRedEx-Sheet_2: -6725922622211169541
+      WoodHouseRedEx-Sheet_20: 4535445702908613179
+      WoodHouseRedEx-Sheet_21: -9171025224473826617
+      WoodHouseRedEx-Sheet_22: 4541040553458659248
+      WoodHouseRedEx-Sheet_23: -7584216190336649819
+      WoodHouseRedEx-Sheet_24: 606754872878141832
+      WoodHouseRedEx-Sheet_25: -5115337440784955881
+      WoodHouseRedEx-Sheet_26: 4367711198864031299
+      WoodHouseRedEx-Sheet_27: -9177639885500369680
+      WoodHouseRedEx-Sheet_28: -1554550800421828928
+      WoodHouseRedEx-Sheet_29: -7760437097765305597
+      WoodHouseRedEx-Sheet_3: 1717312013240268070
+      WoodHouseRedEx-Sheet_4: -3397302742778679790
+      WoodHouseRedEx-Sheet_5: 8676329677055677375
+      WoodHouseRedEx-Sheet_6: 5097547019207170788
+      WoodHouseRedEx-Sheet_7: 8696249295011210969
+      WoodHouseRedEx-Sheet_8: 4471415560470902766
+      WoodHouseRedEx-Sheet_9: 309484333746206206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

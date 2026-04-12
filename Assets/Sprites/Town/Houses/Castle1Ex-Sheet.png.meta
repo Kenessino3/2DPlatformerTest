@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: d9e0031f1bdd98a44a00e6113c29108a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6373779565523175896
+    second: Castle1Ex-Sheet_0
+  - first:
+      213: -2549918641543501812
+    second: Castle1Ex-Sheet_1
+  - first:
+      213: -8011290294892522073
+    second: Castle1Ex-Sheet_2
+  - first:
+      213: 24755664186073327
+    second: Castle1Ex-Sheet_3
+  - first:
+      213: 498988793081991618
+    second: Castle1Ex-Sheet_4
+  - first:
+      213: 4416300916038544388
+    second: Castle1Ex-Sheet_5
+  - first:
+      213: 4686150531649480805
+    second: Castle1Ex-Sheet_6
+  - first:
+      213: 1830698896730896036
+    second: Castle1Ex-Sheet_7
+  - first:
+      213: -2838464113684202604
+    second: Castle1Ex-Sheet_8
+  - first:
+      213: 2021728665963217363
+    second: Castle1Ex-Sheet_9
+  - first:
+      213: -3131256176557140925
+    second: Castle1Ex-Sheet_10
+  - first:
+      213: 4438782457704842752
+    second: Castle1Ex-Sheet_11
+  - first:
+      213: 7413096549753913064
+    second: Castle1Ex-Sheet_12
+  - first:
+      213: 4707174351107972780
+    second: Castle1Ex-Sheet_13
+  - first:
+      213: 543215529801239571
+    second: Castle1Ex-Sheet_14
+  - first:
+      213: 2120461193858064754
+    second: Castle1Ex-Sheet_15
+  - first:
+      213: -9007578970442805622
+    second: Castle1Ex-Sheet_16
+  - first:
+      213: 8728822741636888789
+    second: Castle1Ex-Sheet_17
+  - first:
+      213: -5926762696796272537
+    second: Castle1Ex-Sheet_18
+  - first:
+      213: 7083352907850554586
+    second: Castle1Ex-Sheet_19
+  - first:
+      213: 593236235661496779
+    second: Castle1Ex-Sheet_20
+  - first:
+      213: -634619197273862002
+    second: Castle1Ex-Sheet_21
+  - first:
+      213: 4586164133714451756
+    second: Castle1Ex-Sheet_22
+  - first:
+      213: 8499424566264438849
+    second: Castle1Ex-Sheet_23
+  - first:
+      213: 8445111276471858158
+    second: Castle1Ex-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1309
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d907afbeb6347850800000000000000
+      internalID: 6373779565523175896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1309
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0827ac618edc9cd0800000000000000
+      internalID: -2549918641543501812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1309
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a595642ced22d090800000000000000
+      internalID: -8011290294892522073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1309
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06df93523f75000800000000000000
+      internalID: 24755664186073327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1309
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c19d8ed9a3cce600800000000000000
+      internalID: 498988793081991618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 989
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ca5b9d84ad94d30800000000000000
+      internalID: 4416300916038544388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 989
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568a9fa841d880140800000000000000
+      internalID: 4686150531649480805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 989
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6385672f2f76910800000000000000
+      internalID: 1830698896730896036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 989
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb82c6defbb98d0800000000000000
+      internalID: -2838464113684202604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 989
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d146f6928f9e0c10800000000000000
+      internalID: 2021728665963217363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 669
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3445097f81b8b84d0800000000000000
+      internalID: -3131256176557140925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 669
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0068bbaa029b99d30800000000000000
+      internalID: 4438782457704842752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 669
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee71c5290c90e660800000000000000
+      internalID: 7413096549753913064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 669
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caede95f12e335140800000000000000
+      internalID: 4707174351107972780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 669
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c474275a3e98700800000000000000
+      internalID: 543215529801239571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 349
+        width: 232
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27129eb98346d6d10800000000000000
+      internalID: 2120461193858064754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 349
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e4a7c86a6aef280800000000000000
+      internalID: -9007578970442805622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 349
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d83e964902032970800000000000000
+      internalID: 8728822741636888789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 349
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7680c658ab8efbda0800000000000000
+      internalID: -5926762696796272537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 349
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc9923c0ff1d4260800000000000000
+      internalID: 7083352907850554586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 29
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc15e7696399b3800800000000000000
+      internalID: 593236235661496779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 29
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8019d2d3316137f0800000000000000
+      internalID: -634619197273862002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 29
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ddfa72bf355af30800000000000000
+      internalID: 4586164133714451756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 29
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140ab637c9504f570800000000000000
+      internalID: 8499424566264438849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle1Ex-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 29
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee330ca36ff033570800000000000000
+      internalID: 8445111276471858158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Castle1Ex-Sheet_0: 6373779565523175896
+      Castle1Ex-Sheet_1: -2549918641543501812
+      Castle1Ex-Sheet_10: -3131256176557140925
+      Castle1Ex-Sheet_11: 4438782457704842752
+      Castle1Ex-Sheet_12: 7413096549753913064
+      Castle1Ex-Sheet_13: 4707174351107972780
+      Castle1Ex-Sheet_14: 543215529801239571
+      Castle1Ex-Sheet_15: 2120461193858064754
+      Castle1Ex-Sheet_16: -9007578970442805622
+      Castle1Ex-Sheet_17: 8728822741636888789
+      Castle1Ex-Sheet_18: -5926762696796272537
+      Castle1Ex-Sheet_19: 7083352907850554586
+      Castle1Ex-Sheet_2: -8011290294892522073
+      Castle1Ex-Sheet_20: 593236235661496779
+      Castle1Ex-Sheet_21: -634619197273862002
+      Castle1Ex-Sheet_22: 4586164133714451756
+      Castle1Ex-Sheet_23: 8499424566264438849
+      Castle1Ex-Sheet_24: 8445111276471858158
+      Castle1Ex-Sheet_3: 24755664186073327
+      Castle1Ex-Sheet_4: 498988793081991618
+      Castle1Ex-Sheet_5: 4416300916038544388
+      Castle1Ex-Sheet_6: 4686150531649480805
+      Castle1Ex-Sheet_7: 1830698896730896036
+      Castle1Ex-Sheet_8: -2838464113684202604
+      Castle1Ex-Sheet_9: 2021728665963217363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

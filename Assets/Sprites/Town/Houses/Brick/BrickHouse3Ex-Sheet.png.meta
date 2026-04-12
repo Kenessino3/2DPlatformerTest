@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 3e5aecc12904d87479c0d11d1d957f45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7424501697700509363
+    second: BrickHouse3Ex-Sheet_0
+  - first:
+      213: -4052662231996844734
+    second: BrickHouse3Ex-Sheet_1
+  - first:
+      213: 5980268783299594510
+    second: BrickHouse3Ex-Sheet_2
+  - first:
+      213: 8414758229805161687
+    second: BrickHouse3Ex-Sheet_3
+  - first:
+      213: 1430789399326144517
+    second: BrickHouse3Ex-Sheet_4
+  - first:
+      213: 6969465871457337931
+    second: BrickHouse3Ex-Sheet_5
+  - first:
+      213: -375145391205701738
+    second: BrickHouse3Ex-Sheet_6
+  - first:
+      213: 492389455558616491
+    second: BrickHouse3Ex-Sheet_7
+  - first:
+      213: -7524655891916689648
+    second: BrickHouse3Ex-Sheet_8
+  - first:
+      213: 5127652931351880713
+    second: BrickHouse3Ex-Sheet_9
+  - first:
+      213: -4176877490563368065
+    second: BrickHouse3Ex-Sheet_10
+  - first:
+      213: -3784801320304044234
+    second: BrickHouse3Ex-Sheet_11
+  - first:
+      213: 8961628945458152297
+    second: BrickHouse3Ex-Sheet_12
+  - first:
+      213: -5622042550763719247
+    second: BrickHouse3Ex-Sheet_13
+  - first:
+      213: -8994955421617980320
+    second: BrickHouse3Ex-Sheet_14
+  - first:
+      213: -8785367787961318040
+    second: BrickHouse3Ex-Sheet_15
+  - first:
+      213: 1460630153327175611
+    second: BrickHouse3Ex-Sheet_16
+  - first:
+      213: 4430623926027668191
+    second: BrickHouse3Ex-Sheet_17
+  - first:
+      213: -338172114637586176
+    second: BrickHouse3Ex-Sheet_18
+  - first:
+      213: -2877532485903242294
+    second: BrickHouse3Ex-Sheet_19
+  - first:
+      213: 2308804549837184334
+    second: BrickHouse3Ex-Sheet_20
+  - first:
+      213: 5226459727123990268
+    second: BrickHouse3Ex-Sheet_21
+  - first:
+      213: -5813538211355370958
+    second: BrickHouse3Ex-Sheet_22
+  - first:
+      213: 3207152702187141683
+    second: BrickHouse3Ex-Sheet_23
+  - first:
+      213: -3525818736282786138
+    second: BrickHouse3Ex-Sheet_24
+  - first:
+      213: 2061195552457936878
+    second: BrickHouse3Ex-Sheet_25
+  - first:
+      213: 9045743593467992250
+    second: BrickHouse3Ex-Sheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1359
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49c64aea0fd6f890800000000000000
+      internalID: -7424501697700509363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1359
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245bf230c2d02c7c0800000000000000
+      internalID: -4052662231996844734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1349
+        width: 242
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e090ee906ce2ef250800000000000000
+      internalID: 5980268783299594510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1344
+        width: 242
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd456d60a37c470800000000000000
+      internalID: 8414758229805161687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1334
+        width: 242
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508ba37c06f2bd310800000000000000
+      internalID: 1430789399326144517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1019
+        width: 242
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b424c66c84488b060800000000000000
+      internalID: 6969465871457337931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1009
+        width: 242
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6972f0a11473bcaf0800000000000000
+      internalID: -375145391205701738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1009
+        width: 242
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba528bdd99155d600800000000000000
+      internalID: 492389455558616491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1009
+        width: 242
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f6149655d039790800000000000000
+      internalID: -7524655891916689648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1014
+        width: 242
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90428b07c25192740800000000000000
+      internalID: 5127652931351880713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1004
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b35a86d00c806c0800000000000000
+      internalID: -4176877490563368065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1004
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63719dd704fa97bc0800000000000000
+      internalID: -3784801320304044234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 699
+        width: 242
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96344ee8b0a1e5c70800000000000000
+      internalID: 8961628945458152297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 704
+        width: 242
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5f891461e7af1b0800000000000000
+      internalID: -5622042550763719247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 704
+        width: 242
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c7cfb83bf7b2380800000000000000
+      internalID: -8994955421617980320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 699
+        width: 242
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86508613b8a141680800000000000000
+      internalID: -8785367787961318040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 694
+        width: 242
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb76a4db263354410800000000000000
+      internalID: 1460630153327175611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 354
+        width: 242
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdac93c7cfcbc7d30800000000000000
+      internalID: 4430623926027668191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 399
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0018512e0429e4bf0800000000000000
+      internalID: -338172114637586176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 399
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb271c2373f018d0800000000000000
+      internalID: -2877532485903242294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 399
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dd9d861858a0020800000000000000
+      internalID: 2308804549837184334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 399
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf64c1c4e6d188840800000000000000
+      internalID: 5226459727123990268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 79
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ad0085cc9225fa0800000000000000
+      internalID: -5813538211355370958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 79
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a7c42f368128c20800000000000000
+      internalID: 3207152702187141683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 79
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6a2793a86c11fc0800000000000000
+      internalID: -3525818736282786138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 79
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefcedc2f66da9c10800000000000000
+      internalID: 2061195552457936878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHouse3Ex-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 79
+        width: 242
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8dce13fdfe88d70800000000000000
+      internalID: 9045743593467992250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BrickHouse3Ex-Sheet_0: -7424501697700509363
+      BrickHouse3Ex-Sheet_1: -4052662231996844734
+      BrickHouse3Ex-Sheet_10: -4176877490563368065
+      BrickHouse3Ex-Sheet_11: -3784801320304044234
+      BrickHouse3Ex-Sheet_12: 8961628945458152297
+      BrickHouse3Ex-Sheet_13: -5622042550763719247
+      BrickHouse3Ex-Sheet_14: -8994955421617980320
+      BrickHouse3Ex-Sheet_15: -8785367787961318040
+      BrickHouse3Ex-Sheet_16: 1460630153327175611
+      BrickHouse3Ex-Sheet_17: 4430623926027668191
+      BrickHouse3Ex-Sheet_18: -338172114637586176
+      BrickHouse3Ex-Sheet_19: -2877532485903242294
+      BrickHouse3Ex-Sheet_2: 5980268783299594510
+      BrickHouse3Ex-Sheet_20: 2308804549837184334
+      BrickHouse3Ex-Sheet_21: 5226459727123990268
+      BrickHouse3Ex-Sheet_22: -5813538211355370958
+      BrickHouse3Ex-Sheet_23: 3207152702187141683
+      BrickHouse3Ex-Sheet_24: -3525818736282786138
+      BrickHouse3Ex-Sheet_25: 2061195552457936878
+      BrickHouse3Ex-Sheet_26: 9045743593467992250
+      BrickHouse3Ex-Sheet_3: 8414758229805161687
+      BrickHouse3Ex-Sheet_4: 1430789399326144517
+      BrickHouse3Ex-Sheet_5: 6969465871457337931
+      BrickHouse3Ex-Sheet_6: -375145391205701738
+      BrickHouse3Ex-Sheet_7: 492389455558616491
+      BrickHouse3Ex-Sheet_8: -7524655891916689648
+      BrickHouse3Ex-Sheet_9: 5127652931351880713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
