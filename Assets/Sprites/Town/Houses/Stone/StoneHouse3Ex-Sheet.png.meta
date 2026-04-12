@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 89d4347a5f5fecd4a985d28782ef2688
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -956899290171672577
+    second: StoneHouse3Ex-Sheet_0
+  - first:
+      213: -4204682406208897107
+    second: StoneHouse3Ex-Sheet_1
+  - first:
+      213: 121061883617553207
+    second: StoneHouse3Ex-Sheet_2
+  - first:
+      213: -1708805683385457065
+    second: StoneHouse3Ex-Sheet_3
+  - first:
+      213: 4151577633851336050
+    second: StoneHouse3Ex-Sheet_4
+  - first:
+      213: -1333476323395794990
+    second: StoneHouse3Ex-Sheet_5
+  - first:
+      213: -2861977365220989402
+    second: StoneHouse3Ex-Sheet_6
+  - first:
+      213: 8693372934440648731
+    second: StoneHouse3Ex-Sheet_7
+  - first:
+      213: -6160447938483651339
+    second: StoneHouse3Ex-Sheet_8
+  - first:
+      213: -1987166721734958034
+    second: StoneHouse3Ex-Sheet_9
+  - first:
+      213: -8533673386688939655
+    second: StoneHouse3Ex-Sheet_10
+  - first:
+      213: -6009783596144134453
+    second: StoneHouse3Ex-Sheet_11
+  - first:
+      213: -3762001649869195504
+    second: StoneHouse3Ex-Sheet_12
+  - first:
+      213: 6798526437476716027
+    second: StoneHouse3Ex-Sheet_13
+  - first:
+      213: 6508433510902061884
+    second: StoneHouse3Ex-Sheet_14
+  - first:
+      213: 3184890921063324831
+    second: StoneHouse3Ex-Sheet_15
+  - first:
+      213: 893615606101243827
+    second: StoneHouse3Ex-Sheet_16
+  - first:
+      213: 7012302064750353778
+    second: StoneHouse3Ex-Sheet_17
+  - first:
+      213: 8870361227136191375
+    second: StoneHouse3Ex-Sheet_18
+  - first:
+      213: -6617984349873080364
+    second: StoneHouse3Ex-Sheet_19
+  - first:
+      213: 960502920892162031
+    second: StoneHouse3Ex-Sheet_20
+  - first:
+      213: -5089898996403674300
+    second: StoneHouse3Ex-Sheet_21
+  - first:
+      213: 196013448144261843
+    second: StoneHouse3Ex-Sheet_22
+  - first:
+      213: -6529264504047423823
+    second: StoneHouse3Ex-Sheet_23
+  - first:
+      213: 6994485937545544090
+    second: StoneHouse3Ex-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1309
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff77e7b5a2968b2f0800000000000000
+      internalID: -956899290171672577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1309
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf759001a7f5a5c0800000000000000
+      internalID: -4204682406208897107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1309
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b2dd844291ea100800000000000000
+      internalID: 121061883617553207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1309
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75624abd84a1948e0800000000000000
+      internalID: -1708805683385457065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1309
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2756a2bacdd5d9930800000000000000
+      internalID: 4151577633851336050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 989
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d78993595a8e7de0800000000000000
+      internalID: -1333476323395794990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 989
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6266bceefb63848d0800000000000000
+      internalID: -2861977365220989402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 989
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b108459df9015a870800000000000000
+      internalID: 8693372934440648731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 989
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcf4694d31b18aa0800000000000000
+      internalID: -6160447938483651339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 989
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24a281256a2c64e0800000000000000
+      internalID: -1987166721734958034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 669
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9797335a44d429980800000000000000
+      internalID: -8533673386688939655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 669
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6fbd619a5f89ca0800000000000000
+      internalID: -6009783596144134453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 669
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017fc1f6e6faacbc0800000000000000
+      internalID: -3762001649869195504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 669
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdc6e556c7395e50800000000000000
+      internalID: 6798526437476716027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 669
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bd0958bc9925a50800000000000000
+      internalID: 6508433510902061884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 349
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c985e1b61033c20800000000000000
+      internalID: 3184890921063324831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 349
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f86fb8a2c66c00800000000000000
+      internalID: 893615606101243827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 349
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dde2b3393b05160800000000000000
+      internalID: 7012302064750353778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 349
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bc9d4f98ad91b70800000000000000
+      internalID: 8870361227136191375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 349
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d778b02c423824a0800000000000000
+      internalID: -6617984349873080364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 29
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef908d4154645d00800000000000000
+      internalID: 960502920892162031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 29
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443edb884db0d59b0800000000000000
+      internalID: -5089898996403674300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 29
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d296db413168b200800000000000000
+      internalID: 196013448144261843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 29
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beafafe6846365a0800000000000000
+      internalID: -6529264504047423823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StoneHouse3Ex-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 29
+        width: 242
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a910eddd6e7611160800000000000000
+      internalID: 6994485937545544090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StoneHouse3Ex-Sheet_0: -956899290171672577
+      StoneHouse3Ex-Sheet_1: -4204682406208897107
+      StoneHouse3Ex-Sheet_10: -8533673386688939655
+      StoneHouse3Ex-Sheet_11: -6009783596144134453
+      StoneHouse3Ex-Sheet_12: -3762001649869195504
+      StoneHouse3Ex-Sheet_13: 6798526437476716027
+      StoneHouse3Ex-Sheet_14: 6508433510902061884
+      StoneHouse3Ex-Sheet_15: 3184890921063324831
+      StoneHouse3Ex-Sheet_16: 893615606101243827
+      StoneHouse3Ex-Sheet_17: 7012302064750353778
+      StoneHouse3Ex-Sheet_18: 8870361227136191375
+      StoneHouse3Ex-Sheet_19: -6617984349873080364
+      StoneHouse3Ex-Sheet_2: 121061883617553207
+      StoneHouse3Ex-Sheet_20: 960502920892162031
+      StoneHouse3Ex-Sheet_21: -5089898996403674300
+      StoneHouse3Ex-Sheet_22: 196013448144261843
+      StoneHouse3Ex-Sheet_23: -6529264504047423823
+      StoneHouse3Ex-Sheet_24: 6994485937545544090
+      StoneHouse3Ex-Sheet_3: -1708805683385457065
+      StoneHouse3Ex-Sheet_4: 4151577633851336050
+      StoneHouse3Ex-Sheet_5: -1333476323395794990
+      StoneHouse3Ex-Sheet_6: -2861977365220989402
+      StoneHouse3Ex-Sheet_7: 8693372934440648731
+      StoneHouse3Ex-Sheet_8: -6160447938483651339
+      StoneHouse3Ex-Sheet_9: -1987166721734958034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: WoodHouseBlueEx-Sheet_0
+      m_Hash: 166871835
+      m_Sprite: {fileID: -7485119100378416112, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7485119100378416112, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Explode
+    m_Hash: 466490641
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: WoodHouseBlueEx-Sheet_1
+      m_Hash: 1056273293
+      m_Sprite: {fileID: -305659029155423349, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -305659029155423349, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_2
+      m_Hash: 670835255
+      m_Sprite: {fileID: 6817565242494383976, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6817565242494383976, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_3
+      m_Hash: 284889761
+      m_Sprite: {fileID: -1073787684946502579, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1073787684946502579, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_4
+      m_Hash: 245335810
+      m_Sprite: {fileID: 8613220879527298405, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8613220879527298405, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_5
+      m_Hash: 966309780
+      m_Sprite: {fileID: -2673011973484440447, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2673011973484440447, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_6
+      m_Hash: 546432558
+      m_Sprite: {fileID: -2647885039011131204, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2647885039011131204, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_7
+      m_Hash: 395761336
+      m_Sprite: {fileID: 3687685615153816402, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3687685615153816402, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_8
+      m_Hash: 120179497
+      m_Sprite: {fileID: -1202250238173181373, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1202250238173181373, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_9
+      m_Hash: 808385471
+      m_Sprite: {fileID: 5623717201939506859, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5623717201939506859, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_12
+      m_Hash: 153269475
+      m_Sprite: {fileID: 502626200301182451, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 502626200301182451, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_13
+      m_Hash: 1042646133
+      m_Sprite: {fileID: 3663366092109240249, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3663366092109240249, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_14
+      m_Hash: 541135318
+      m_Sprite: {fileID: 4090045585333371446, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4090045585333371446, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_15
+      m_Hash: 390472000
+      m_Sprite: {fileID: -1938086293400631737, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1938086293400631737, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_16
+      m_Hash: 240087290
+      m_Sprite: {fileID: -1502969053929867405, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1502969053929867405, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_17
+      m_Hash: 961036396
+      m_Sprite: {fileID: 2562200221089599944, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2562200221089599944, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_18
+      m_Hash: 704077309
+      m_Sprite: {fileID: 4806127984397619815, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4806127984397619815, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_19
+      m_Hash: 519073131
+      m_Sprite: {fileID: 4952250445690291297, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4952250445690291297, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_21
+      m_Hash: 990295706
+      m_Sprite: {fileID: -7853436569709469465, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7853436569709469465, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_22
+      m_Hash: 571467552
+      m_Sprite: {fileID: -7118165757814724619, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7118165757814724619, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_23
+      m_Hash: 352901046
+      m_Sprite: {fileID: 891269095482682192, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 891269095482682192, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_25
+      m_Hash: 1013674627
+      m_Sprite: {fileID: -6824126845784207594, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6824126845784207594, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 21
+  - m_Name: Burn
+    m_Hash: 895529530
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: WoodHouseBlueEx-Sheet_26
+      m_Hash: 627188537
+      m_Sprite: {fileID: -265674357722082091, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -265674357722082091, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_27
+      m_Hash: 308614063
+      m_Sprite: {fileID: 922233775224091420, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 922233775224091420, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    - m_Name: WoodHouseBlueEx-Sheet_29
+      m_Hash: 903691944
+      m_Sprite: {fileID: -8694870903513742654, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8694870903513742654, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639116155415457922
+  m_Version: 1
