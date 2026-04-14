@@ -1,11 +1,15 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance { get; private set; }
     private AudioSource soundSource;
     private AudioSource musicSource;
+    
+    //cutscene names
+    public string[] muteMusicInScenes;
 
     private void Awake()
     {
@@ -23,11 +27,48 @@ public class SoundManager : MonoBehaviour
         else if (instance != null && instance != this)
         {
             Destroy(gameObject);
+            return;
         }
         
         //Assign initial volumes
         ChangeMusicVolume(0);
         ChangeSoundVolume(0);
+    }
+
+    //script is on, subscribe to the event
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    //script off, unsubscribe
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+    //triggers everytime a new scene finishes loading
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        bool shouldStopMusic = false;
+        
+        //Loop through cutscenes
+        foreach (string sceneName in muteMusicInScenes)
+        {
+            //if it matches a name on the list stop the music
+            if (scene.name == sceneName)
+            {
+                shouldStopMusic = true;
+                break;
+            }
+        }
+
+        if (shouldStopMusic)
+        {
+            musicSource.Stop();
+        }
+        else if (!musicSource.isPlaying)
+        {
+            musicSource.Play();
+        }
     }
 
     public void PlaySound(AudioClip _sound)
