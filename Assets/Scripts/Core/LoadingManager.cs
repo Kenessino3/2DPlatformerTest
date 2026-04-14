@@ -3,9 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class LoadingManager : MonoBehaviour
 {
-    private void Update()
+    public void LoadNextLevel()
     {
-        if(Input.GetKeyDown(KeyCode.F))
-            SceneManager.LoadScene(2);
+        //get current level index and calculate the next one
+        int currentLevelIndex= SceneManager.GetActiveScene().buildIndex;
+        int nextLevelIndex = currentLevelIndex + 1;
+        
+        SceneManager.LoadScene(nextLevelIndex);
     }
 }
