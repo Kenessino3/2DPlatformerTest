@@ -1571,6 +1571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
   muteMusicInScenes:
   - IntroScene
+  - OutroScene
 --- !u!82 &1985277185
 AudioSource:
   m_ObjectHideFlags: 0
