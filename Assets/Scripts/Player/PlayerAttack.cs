@@ -24,13 +24,11 @@ public class PlayerAttack : MonoBehaviour
     public static event Action OnAttackEnded;
     
     //Refs
-    private Animator anim;
     private PlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
 
     private void Awake()
     {
-        anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
     }
     
@@ -54,7 +52,6 @@ public class PlayerAttack : MonoBehaviour
     {
         if (cooldownTimer > attackCooldown && playerMovement.canAttack())
         {
-           anim.SetTrigger("Attack");
             cooldownTimer = 0;
                    
             //lock movement

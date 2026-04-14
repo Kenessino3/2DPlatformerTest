@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -28,12 +29,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip jumpsound;
     
     private Rigidbody2D body;
-    private Animator anim;
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
     private float horizontalInput;
     private bool isAttacking = false;
     public bool isBlocking { get; private set; }
+    public bool IsRunning { get; private set; }
     
     
     
@@ -47,7 +48,6 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         
         playerInput = GetComponent<PlayerInput>();
@@ -82,22 +82,20 @@ public class PlayerMovement : MonoBehaviour
         //blocking
         isBlocking = playerInput.IsBlocking;
         
-        if (isBlocking && isGrounded())
+        if (isBlocking && IsGrounded())
         {
-            anim.SetBool("Block", true);
             body.linearVelocity = Vector2.zero;
             return;
-        }
-        else
-        {
-            anim.SetBool("Block", false);
         }
 
         float horizontalInput = playerInput.HorizontalInput;
             
         //if attacking make horizontalInput 0
         float movementForce = isAttacking ? 0:horizontalInput;
-
+        
+        //for animator
+        IsRunning = movementForce != 0 && !isAttacking;
+        
        // flip player depending on the direction they are moving
        if (horizontalInput > 0.01f)
        {
@@ -109,8 +107,7 @@ public class PlayerMovement : MonoBehaviour
        }
        
        //set animator parameters
-       anim.SetBool("Run", movementForce != 0 && !isAttacking);
-       anim.SetBool("Grounded", isGrounded());
+       
        
        if (onWall())
        {
@@ -122,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
            body.gravityScale = 7;
            body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
 
-           if (isGrounded())
+           if (IsGrounded())
            {
                coyoteCounter = coyoteTime; //Reset coyote counter when on the ground
                jumpCounter = extraJumps; //Reset jump counter to extra jump value
@@ -152,7 +149,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             //If not on the ground and coyote counter bigger than 0 do a normal jump
-            if (isGrounded() || coyoteCounter >0)
+            if (IsGrounded() || coyoteCounter >0)
             {
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             }
@@ -181,7 +178,7 @@ public class PlayerMovement : MonoBehaviour
         wallJumpCooldown = 0;
     }
 
-    private bool isGrounded()
+    public bool IsGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down,
             0.1f, groundLayer);
@@ -197,7 +194,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool canAttack()
     {
-        return isGrounded();
+        return IsGrounded();
     }
     
 }
