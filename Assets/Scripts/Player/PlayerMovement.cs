@@ -40,43 +40,61 @@ public class PlayerMovement : MonoBehaviour
 
     //Called everytime the script is loaded
     //Grabs references for the Rigidbody component to body and animator to anim
+    
+    //connection to Input Script
+    private PlayerInput playerInput;
+    
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        
+        playerInput = GetComponent<PlayerInput>();
     }
 
-    //Movement lock for attacking
-    public void SetAttacking(bool attacking)
+    private void OnEnable()
     {
-        isAttacking = attacking;
+        PlayerInput.OnJumpPressed += HandleJump;
+        PlayerInput.OnJumpReleased += HandleJumpCut;
+
+        PlayerAttack.OnAttackStarted += LockMovement;
+        PlayerAttack.OnAttackEnded += UnLockMovement;
     }
+
+    private void OnDisable()
+    {
+        PlayerInput.OnJumpPressed -= HandleJump;
+        PlayerInput.OnJumpReleased -= HandleJumpCut;
+        
+        PlayerAttack.OnAttackStarted -= LockMovement;
+        PlayerAttack.OnAttackEnded -= UnLockMovement;
+    }
+    
+    //Movement lock for attacking
+    private void LockMovement() {isAttacking = true;}
+    private void UnLockMovement() {isAttacking = false;}
     
     // Update is called once per frame
     //checking for input from the player
     void Update()
     {
         //blocking
-        if (Input.GetMouseButton(1) && isGrounded())
+        isBlocking = playerInput.IsBlocking;
+        
+        if (isBlocking && isGrounded())
         {
-            isBlocking = true;
             anim.SetBool("Block", true);
-        }
-        else
-        {
-            isBlocking = false;
-            anim.SetBool("Block", false);
-        }
-
-        if (isBlocking)
-        {
             body.linearVelocity = Vector2.zero;
             return;
         }
-        
-        horizontalInput = Input.GetAxis("Horizontal");
-      
+        else
+        {
+            anim.SetBool("Block", false);
+        }
+
+        float horizontalInput = playerInput.HorizontalInput;
+            
         //if attacking make horizontalInput 0
         float movementForce = isAttacking ? 0:horizontalInput;
 
@@ -94,18 +112,6 @@ public class PlayerMovement : MonoBehaviour
        anim.SetBool("Run", movementForce != 0 && !isAttacking);
        anim.SetBool("Grounded", isGrounded());
        
-       //Jump
-       if (Input.GetKeyDown(KeyCode.Space))
-       {
-           Jump();
-       }
-       
-       //Adjustable Jump Height
-       if(Input.GetKeyUp(KeyCode.Space) && body.linearVelocity.y > 0)
-       {
-           body.linearVelocity = new Vector2(body.linearVelocity.x, body.linearVelocity.y / 2);
-       }
-
        if (onWall())
        {
            body.gravityScale = 0;
@@ -132,7 +138,7 @@ public class PlayerMovement : MonoBehaviour
        }
     }
 
-    private void Jump()
+    private void HandleJump()
     {
         if (coyoteCounter < 0 && !onWall() && jumpCounter <= 0) return; 
         //If coyote counter is 0 or less and not on the wall and no extra jumps don't do anything
@@ -145,30 +151,28 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (isGrounded())
+            //If not on the ground and coyote counter bigger than 0 do a normal jump
+            if (isGrounded() || coyoteCounter >0)
             {
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             }
-            else
+            //If we have extra jumps then jump and decrease the jump counter
+            else if (jumpCounter > 0)
             {
-                //If not on the ground and coyote counter bigger than 0 do a normal jump
-                if (coyoteCounter > 0)
-                {
-                    body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-                }
-                else
-                {
-                    if (jumpCounter > 0) //If we have extra jumps then jump and decrease the jump counter
-                    {
-                        body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
-                        jumpCounter--;
-                    }
-                }
+                body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
+                jumpCounter--;
             }
             //Reset coyote counter to 0 to avoid double jumps
             coyoteCounter = 0;
         }
-        
+    }
+
+    private void HandleJumpCut()
+    {
+        if (body.linearVelocity.y > 0)
+        {
+            body.linearVelocity = new Vector2(body.linearVelocity.x, body.linearVelocity.y / 2);
+        }
     }
 
     private void WallJump()

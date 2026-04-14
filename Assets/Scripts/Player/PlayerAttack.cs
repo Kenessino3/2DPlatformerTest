@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -18,6 +19,10 @@ public class PlayerAttack : MonoBehaviour
     [Header("Sound Parameters")]
     [SerializeField] private AudioClip swordhitsound;
     
+    //events
+    public static event Action OnAttackStarted;
+    public static event Action OnAttackEnded;
+    
     //Refs
     private Animator anim;
     private PlayerMovement playerMovement;
@@ -28,29 +33,39 @@ public class PlayerAttack : MonoBehaviour
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
     }
+    
+    //subscribe
+    private void OnEnable()
+    {
+        PlayerInput.OnAttackPressed += AttemptAttack;
+    }
+    //unsubscribe
+    private void OnDisable()
+    {
+        PlayerInput.OnAttackPressed -= AttemptAttack;
+    }
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && cooldownTimer > attackCooldown && playerMovement.canAttack())
-        {
-            Attack();
-        }
         cooldownTimer += Time.deltaTime;
     }
 
-    private void Attack()
+    private void AttemptAttack()
     {
+        if (cooldownTimer > attackCooldown && playerMovement.canAttack())
+        {
+           anim.SetTrigger("Attack");
+            cooldownTimer = 0;
+                   
+            //lock movement
+            OnAttackStarted?.Invoke(); 
+        }
         
-        anim.SetTrigger("Attack");
-        cooldownTimer = 0;
-        
-        //lock movement
-        playerMovement.SetAttacking(true);
     }
 
     public void UnlockMovement()
     {
-        playerMovement.SetAttacking(false);
+        OnAttackEnded?.Invoke();
     }
     
     private void DamageEnemy()

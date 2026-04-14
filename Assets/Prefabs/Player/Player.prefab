@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2352398642771838358}
   - component: {fileID: 8290192772502805004}
   - component: {fileID: 5465917250938945854}
+  - component: {fileID: 3703391805760896582}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -487775411
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: -1745646317731160461, guid: 98bf7f35a15f0c04e86a09632d7e463b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -258,6 +259,7 @@ MonoBehaviour:
   - {fileID: 2352398642771838358}
   deathsound: {fileID: 8300000, guid: c6957f4cc33f5324a903f1904f63566e, type: 3}
   hurtsound: {fileID: 8300000, guid: 1bba226cb37017948912892b355f8820, type: 3}
+  scoreValue: 0
 --- !u!114 &5465917250938945854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,3 +273,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
   checkpointSound: {fileID: 8300000, guid: deb8b4612fde2b2428b1ba806a605ceb, type: 3}
+--- !u!114 &3703391805760896582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322617653255741544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e52570937a0b54c9b5f078ce33471d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInput
