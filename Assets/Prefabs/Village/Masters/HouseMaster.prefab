@@ -64,7 +64,7 @@ MonoBehaviour:
   m_CategoryHash: 3.4093455e-22
   m_labelHash: 0.4793972
   m_SpriteKey: 0
-  m_SpriteHash: 412081899
+  m_SpriteHash: 118163590
 --- !u!212 &5089469989917781837
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -112,7 +112,7 @@ SpriteRenderer:
   m_SortingLayerID: -1956105681
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -305659029155423349, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
+  m_Sprite: {fileID: -265674357722082091, guid: 86664d5546e9b2b4cb8338ae0a494419, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
