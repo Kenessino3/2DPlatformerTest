@@ -16,9 +16,6 @@ public class PlayerAttack : MonoBehaviour
     [Header("Layers")]
     [SerializeField] private LayerMask attackableLayer;
     
-    [Header("Sound Parameters")]
-    [SerializeField] private AudioClip swordhitsound;
-    
     //events
     public static event Action OnAttackStarted;
     public static event Action OnAttackEnded;
@@ -78,7 +75,6 @@ public class PlayerAttack : MonoBehaviour
 
         if (hit.collider != null)
         {
-            SoundManager.instance.PlaySound(swordhitsound);
             
             //Check if enemy
             Health enemyHealth = hit.collider.GetComponent<Health>();

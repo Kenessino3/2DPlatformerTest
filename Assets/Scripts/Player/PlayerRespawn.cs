@@ -1,8 +1,8 @@
+using System;
 using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
-{
-   [SerializeField] private AudioClip checkpointSound; //Sound that plays when picking up a new checkpoint
+{ 
    private Transform currentCheckpoint; //store last checkpoint
    private Health playerHealth;
    private UIManager uiManager;
@@ -28,7 +28,6 @@ public class PlayerRespawn : MonoBehaviour
    private void UpdateCheckpoint(Transform newCheckpoint)
    {
       currentCheckpoint = newCheckpoint;
-      SoundManager.instance.PlaySound(checkpointSound);
    }
    
    public void CheckRespawn()

@@ -21,9 +21,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float wallJumpX; //Horizontal wall jump force
     [SerializeField] private float wallJumpY; //vertical wall jump force
     
-    [Header("Sound Components")]
-    [SerializeField] private AudioClip jumpsound;
-    
     private Rigidbody2D body;
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
@@ -138,8 +135,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (coyoteCounter < 0 && !playerCollisions.IsTouchingWall && jumpCounter <= 0) return; 
         //If coyote counter is 0 or less and not on the wall and no extra jumps don't do anything
-        
-        SoundManager.instance.PlaySound(jumpsound);
 
         if (playerCollisions.IsTouchingWall)
         {
