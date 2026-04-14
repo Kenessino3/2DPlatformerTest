@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 5465917250938945854}
   - component: {fileID: 3703391805760896582}
   - component: {fileID: 8553763139408289369}
+  - component: {fileID: 8114505137821423826}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -190,12 +191,6 @@ MonoBehaviour:
   extraJumps: 1
   wallJumpX: 1500
   wallJumpY: 750
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 1088
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 1152
   jumpsound: {fileID: 8300000, guid: 6e333ceb87ca0c140861b6fb0ddeb4d9, type: 3}
 --- !u!95 &3400093299503328169
 Animator:
@@ -298,3 +293,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4784ee2d4dae88e43a6dcf890fd1dda8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimator
+--- !u!114 &8114505137821423826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322617653255741544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f50414ca3c1d36419a7154a0262b545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCollisions
+  boxCollider: {fileID: 6508191436888204655}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1088
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 1152

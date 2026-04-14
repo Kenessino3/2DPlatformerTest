@@ -21,10 +21,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float wallJumpX; //Horizontal wall jump force
     [SerializeField] private float wallJumpY; //vertical wall jump force
     
-    [Header("Layers")]
-    [SerializeField] LayerMask groundLayer;
-    [SerializeField] LayerMask wallLayer;
-    
     [Header("Sound Components")]
     [SerializeField] private AudioClip jumpsound;
     
@@ -44,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
     
     //connection to Input Script
     private PlayerInput playerInput;
+    //connection to Collisions Script
+    private PlayerCollisions playerCollisions;
     
     private void Awake()
     {
@@ -51,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         
         playerInput = GetComponent<PlayerInput>();
+        playerCollisions = GetComponent<PlayerCollisions>();
     }
 
     private void OnEnable()
@@ -82,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
         //blocking
         isBlocking = playerInput.IsBlocking;
         
-        if (isBlocking && IsGrounded())
+        if (isBlocking && playerCollisions.IsGrounded)
         {
             body.linearVelocity = Vector2.zero;
             return;
@@ -109,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
        //set animator parameters
        
        
-       if (onWall())
+       if (playerCollisions.IsTouchingWall)
        {
            body.gravityScale = 0;
            body.linearVelocity = Vector2.zero;
@@ -119,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
            body.gravityScale = 7;
            body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
 
-           if (IsGrounded())
+           if (playerCollisions.IsGrounded)
            {
                coyoteCounter = coyoteTime; //Reset coyote counter when on the ground
                jumpCounter = extraJumps; //Reset jump counter to extra jump value
@@ -129,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
                coyoteCounter -= Time.deltaTime; //Start decreasing coyote counter when not on the ground
            }
        }
-       if (!onWall())
+       if (!playerCollisions.IsTouchingWall)
        {
            body.linearVelocity = new Vector2(movementForce * speed, body.linearVelocity.y);
        }
@@ -137,19 +136,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleJump()
     {
-        if (coyoteCounter < 0 && !onWall() && jumpCounter <= 0) return; 
+        if (coyoteCounter < 0 && !playerCollisions.IsTouchingWall && jumpCounter <= 0) return; 
         //If coyote counter is 0 or less and not on the wall and no extra jumps don't do anything
         
         SoundManager.instance.PlaySound(jumpsound);
 
-        if (onWall())
+        if (playerCollisions.IsTouchingWall)
         {
             WallJump();
         }
         else
         {
             //If not on the ground and coyote counter bigger than 0 do a normal jump
-            if (IsGrounded() || coyoteCounter >0)
+            if (playerCollisions.IsGrounded || coyoteCounter >0)
             {
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             }
@@ -178,23 +177,9 @@ public class PlayerMovement : MonoBehaviour
         wallJumpCooldown = 0;
     }
 
-    public bool IsGrounded()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down,
-            0.1f, groundLayer);
-        return raycastHit.collider != null;
-    }
-    
-    private bool onWall()
-    {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0),
-            0.1f, wallLayer);
-        return raycastHit.collider != null;
-    }
-
     public bool canAttack()
     {
-        return IsGrounded();
+        return playerCollisions.IsGrounded;
     }
     
 }

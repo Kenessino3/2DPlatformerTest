@@ -13,6 +13,24 @@ public class PlayerRespawn : MonoBehaviour
       uiManager = FindObjectOfType<UIManager>();
    }
 
+   //subscriptions
+   private void OnEnable()
+   {
+      PlayerCollisions.OnCheckpointReached += UpdateCheckpoint;
+   }
+
+   private void OnDisable()
+   {
+      PlayerCollisions.OnCheckpointReached -= UpdateCheckpoint;
+   }
+
+   //Activate checkpoints
+   private void UpdateCheckpoint(Transform newCheckpoint)
+   {
+      currentCheckpoint = newCheckpoint;
+      SoundManager.instance.PlaySound(checkpointSound);
+   }
+   
    public void CheckRespawn()
    {
       //Check if checkpoint is available
@@ -28,18 +46,5 @@ public class PlayerRespawn : MonoBehaviour
       
       //Move camera back to checkpoint room (checkpoint must be child of the room object)
       Camera.main.GetComponent<CameraController>().MoveToNewRoom(currentCheckpoint.parent);
-   }
-   
-   //Activate checkpoints
-   private void OnTriggerEnter2D(Collider2D collision)
-   {
-      if (collision.tag == "Checkpoint")
-      {
-         currentCheckpoint = collision.transform;//Store the checkpoint that was activated as the current one
-         SoundManager.instance.PlaySound(checkpointSound);
-         collision.GetComponent<Collider2D>().enabled = false; //Deactivate checkpoint collider
-         collision.GetComponent<Animator>().SetTrigger("Appear"); //Trigger checkpoint animation
-      }
-      
    }
 }
