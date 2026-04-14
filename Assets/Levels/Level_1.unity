@@ -11713,9 +11713,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In order to complete each level reach the end. \nTo win the game you must
-    find the villagers' prized pineapple.\nPick this one up and proceed to the next
-    level when ready!"
+  m_text: 'In order to complete each level reach the end and pick up the villagers''
+    prized pineapples.
+
+    Pick this one up and proceed to the next level when ready!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
