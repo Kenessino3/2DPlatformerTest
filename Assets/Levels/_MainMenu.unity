@@ -1569,9 +1569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec323c6f2f681ab43aa8577a7399e69f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
-  muteMusicInScenes:
-  - IntroScene
-  - OutroScene
+  muteMusicInScenes: []
 --- !u!82 &1985277185
 AudioSource:
   m_ObjectHideFlags: 0
